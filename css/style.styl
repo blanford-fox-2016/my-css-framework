@@ -130,64 +130,118 @@ orange    = #d35400
 */
 
 .ju-container
-  margin-left: auto
-  margin-right: auto
-  padding-right: 15px
-  padding-left: 15px
-  position: relative;
-  min-height: 1px
-
-.ju-row
-  margin-right: -15px
-  margin-left: -15px
-
-.col-md-1
-  float: left
-  width: 8.333333%
-
-.col-md-2
-  float: left
-  width: 16.666667%
-
-.col-md-3
-  float: left
-  width: 25%
-
-.col-md-4
-  float: left
-  width: 33.333333%
-
-.col-md-5
-  float: left
-  width: 41.666667%
-
-.col-md-6
-  float: left
-  width: 50%
-
-.col-md-7
-  float: left
-  width: 58.333333%
-
-.col-md-8
-  float: left
-  width: 66.666667%
-
-.col-md-9
-  float: left
-  width: 75%
-
-.col-md-10
-  float: left
-  width: 83.333333%
-
-.col-md-11
-  float: left
-  width: 91.666667%
-
-.col-md-12
-  float: left
+  position: relative
   width: 100%
+  max-width: 960px
+  margin: 0 auto
+  padding: 0 22px
+  box-sizing: border-box;
+
+.ju-column
+  width: 100%
+  float: left
+  box-sizing: border-box
+
+@media (min-width: 400px)
+  .ju-container
+    width: 80%
+    padding: 0
+
+@media (min-width: 550px)
+  .ju-container
+    width: 80%
+  .ju-column
+    margin-left: 4%
+
+$monitor = 960
+
+.ju-col-one
+  width ($monitor/12)px
+
+.ju-col-two
+  width ($monitor/11)px
+
+.ju-col-three
+  width ($monitor/10)px
+
+.ju-col-four
+  width ($monitor/9)px
+
+.ju-col-five
+  width ($monitor/8)px
+
+.ju-col-six
+  width ($monitor/7)px
+
+.ju-col-seven
+  width ($monitor/6)px
+
+.ju-col-eight
+  width ($monitor/5)px
+
+.ju-col-nine
+  width ($monitor/4)px
+
+.ju-col-ten
+  width ($monitor/3)px
+
+.ju-col-eleven
+  width ($monitor/2)px
+
+.ju-col-twelve
+  width ($monitor)px
+
+/* third System
+   ---------
+*/
+
+.ju-col-one-third
+  width ($monitor/3)px
+
+.ju-col-two-third
+  width ($monitor/6) px
+
+/* offset System
+   ---------
+*/
+
+.ju-offset-one
+  margin ($monitor/12)px
+
+.ju-offset-two
+  margin ($monitor/11)px
+
+.ju-offset-three
+  margin ($monitor/10)px
+
+.ju-offset-four
+  margin ($monitor/9)px
+
+.ju-offset-five
+  margin ($monitor/8)px
+
+.ju-offset-six
+  margin ($monitor/7)px
+
+.ju-offset-seven
+  margin ($monitor/6)px
+
+.ju-offset-eight
+  margin ($monitor/5)px
+
+.ju-offset-nine
+  margin ($monitor/4)px
+
+.ju-offset-ten
+  margin ($monitor/3)px
+
+.ju-offset-eleven
+  margin ($monitor/2)px
+
+.ju-offset-twelve
+  margin ($monitor)px
+
+
 
 
 /* Tables
@@ -202,15 +256,28 @@ orange    = #d35400
 /* Buttons
    ==========================================================================
 */
+.ju-button, button, input[type="text"]{
+  display: inline-block
+  height: 40px
+  padding: 0 20px
+  color: #555
+  text-align: center
+  font-size: 12px
+  font-weight: bold
+  line-height: 45px
+  letter-spacing: .1rem
+  text-decoration: none
+  text-transform: uppercase
+  background-color: transparent
+  border-radius: 4px
+  border: 1px solid #bbb
+  }
 
-/* Images
-   ==========================================================================
-*/
+.ju-button-success
+  color: green
 
-/* Helper Classes
-   ==========================================================================
-*/
+.ju-button-fail
+  color: red
 
-/* Responsive Utilities
-   ==========================================================================
-*/
+.ju-button-calm
+  color: yellow

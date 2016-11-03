@@ -108,64 +108,115 @@ a:hover {
    =========================
 */
 .ju-container {
-  margin-left: auto;
-  margin-right: auto;
-  padding-right: 15px;
-  padding-left: 15px;
   position: relative;
-  min-height: 1px;
-}
-.ju-row {
-  margin-right: -15px;
-  margin-left: -15px;
-}
-.col-md-1 {
-  float: left;
-  width: 8.333333%;
-}
-.col-md-2 {
-  float: left;
-  width: 16.666667%;
-}
-.col-md-3 {
-  float: left;
-  width: 25%;
-}
-.col-md-4 {
-  float: left;
-  width: 33.333333%;
-}
-.col-md-5 {
-  float: left;
-  width: 41.666667%;
-}
-.col-md-6 {
-  float: left;
-  width: 50%;
-}
-.col-md-7 {
-  float: left;
-  width: 58.333333%;
-}
-.col-md-8 {
-  float: left;
-  width: 66.666667%;
-}
-.col-md-9 {
-  float: left;
-  width: 75%;
-}
-.col-md-10 {
-  float: left;
-  width: 83.333333%;
-}
-.col-md-11 {
-  float: left;
-  width: 91.666667%;
-}
-.col-md-12 {
-  float: left;
   width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 22px;
+  box-sizing: border-box;
+}
+.ju-column {
+  width: 100%;
+  float: left;
+  box-sizing: border-box;
+}
+@media (min-width: 400px) {
+  .ju-container {
+    width: 80%;
+    padding: 0;
+  }
+}
+@media (min-width: 550px) {
+  .ju-container {
+    width: 80%;
+  }
+  .ju-column {
+    margin-left: 4%;
+  }
+}
+.ju-col-one {
+  width: 80px;
+}
+.ju-col-two {
+  width: 87.27272727272727px;
+}
+.ju-col-three {
+  width: 96px;
+}
+.ju-col-four {
+  width: 106.66666666666667px;
+}
+.ju-col-five {
+  width: 120px;
+}
+.ju-col-six {
+  width: 137.14285714285714px;
+}
+.ju-col-seven {
+  width: 160px;
+}
+.ju-col-eight {
+  width: 192px;
+}
+.ju-col-nine {
+  width: 240px;
+}
+.ju-col-ten {
+  width: 320px;
+}
+.ju-col-eleven {
+  width: 480px;
+}
+.ju-col-twelve {
+  width: 960px;
+}
+/* third System
+   ---------
+*/
+.ju-col-one-third {
+  width: 320px;
+}
+.ju-col-two-third {
+  width: 160px;
+}
+/* offset System
+   ---------
+*/
+.ju-offset-one {
+  margin: 80px;
+}
+.ju-offset-two {
+  margin: 87.27272727272727px;
+}
+.ju-offset-three {
+  margin: 96px;
+}
+.ju-offset-four {
+  margin: 106.66666666666667px;
+}
+.ju-offset-five {
+  margin: 120px;
+}
+.ju-offset-six {
+  margin: 137.14285714285714px;
+}
+.ju-offset-seven {
+  margin: 160px;
+}
+.ju-offset-eight {
+  margin: 192px;
+}
+.ju-offset-nine {
+  margin: 240px;
+}
+.ju-offset-ten {
+  margin: 320px;
+}
+.ju-offset-eleven {
+  margin: 480px;
+}
+.ju-offset-twelve {
+  margin: 960px;
 }
 /* Tables
    ==========================================================================
@@ -176,12 +227,30 @@ a:hover {
 /* Buttons
    ==========================================================================
 */
-/* Images
-   ==========================================================================
-*/
-/* Helper Classes
-   ==========================================================================
-*/
-/* Responsive Utilities
-   ==========================================================================
-*/
+.ju-button,
+button,
+input[type="text"] {
+  display: inline-block;
+  height: 40px;
+  padding: 0 20px;
+  color: #555;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 45px;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+}
+.ju-button-success {
+  color: #2ecc71;
+}
+.ju-button-fail {
+  color: #c0392b;
+}
+.ju-button-calm {
+  color: #f1c40f;
+}
