@@ -1,0 +1,8 @@
+{
+    "allowedExtensions":[".less"],
+    "minified": false,
+    "defaults": {
+        "watchFolder": "C:/Users/toni/Desktop/my-css-framework/less",
+        "outputFolder": "C:/Users/toni/Desktop/my-css-framework/css"
+    }
+}
