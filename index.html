@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>TamvanCSS Framework</title>
+    <link rel="stylesheet" href="/stylesheets/style.css" media="screen" title="no title">
+  </head>
+  <body>
+    <!-- <nav class="navbar bg-primary-l">
+
+      <div class="container">
+        <div class="navbar-brand">
+          TAMVAN
+        </div>
+
+        <ul class="navbar-menu fr">
+          <li class="navbar-menu-item c-neutral"><a href="#">Menu 1</a></li>
+          <li class="navbar-menu-item c-neutral"><a href="#">Menu 2</a></li>
+          <li class="navbar-menu-item c-neutral"><a href="https://tamatamvan.web.id" target="_blank">My Blog</a></li>
+        </ul>
+
+        <div class="clearfix"></div>
+      </div>
+
+    </nav> -->
+
+    <div class="container">
+      <div class="row">
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+
+
+      <div class="row">
+        <div class="box s-100 bg-primary">
+          <p>
+            100% on all screen
+          </p>
+        </div>
+
+        <div class="box s-50 bg-success">
+          <p>
+            50% on all screen
+          </p>
+        </div>
+        <div class="box s-50 bg-neutral">
+          <p>
+            50% on all screen
+          </p>
+        </div>
+
+        <div class="box l-75 bg-danger">
+          <p>
+            75% on large screen, 100% on medium and small screen
+          </p>
+        </div>
+        <div class="box l-25 bg-warning">
+          <p>
+            25% on large screen, 100% on medium and small screen
+          </p>
+        </div>
+
+
+        <div class="box l-66 bg-primary">
+          <p>
+            66% on large screen, 100% on medium and small screen
+          </p>
+        </div>
+        <div class="box l-33 bg-warning">
+          <p>
+            33% on large screen, 100% on medium and small screen
+          </p>
+        </div>
+
+        <div class="box m-33 bg-danger">
+          <p>33% on medium and large screen,  100% on small</p>
+        </div>
+        <div class="box m-33 bg-primary">
+          <p>33% on medium and large screen,  100% on small</p>
+        </div>
+        <div class="box m-33 bg-warning">
+          <p>33% on medium and large screen,  100% on small</p>
+        </div>
+
+        <div class="box s-100 m-50 l-25 bg-success">
+          <p>25% on large screen, 50% on medium, 100% on small</p>
+        </div>
+        <div class="box s-100 m-50 l-25 bg-neutral">
+          <p>25% on large screen, 50% on medium, 100% on small</p>
+        </div>
+        <div class="box s-100 m-50 l-25 bg-success">
+          <p>25% on large screen, 50% on medium, 100% on small</p>
+        </div>
+        <div class="box s-100 m-50 l-25 bg-danger">
+          <p>25% on large screen, 50% on medium, 100% on small</p>
+        </div>
+
+
+        <div class="box s-50 m-25 bg-danger">
+          <p>
+            25% on medium large screen, 50% on small screen
+          </p>
+        </div>
+        <div class="box s-50 m-25 bg-neutral">
+          <p>
+            25% on medium large screen, 50% on small screen
+          </p>
+        </div>
+        <div class="box s-50 m-25 bg-primary">
+          <p>
+            25% on medium large screen, 50% on small screen
+          </p>
+        </div>
+        <div class="box s-50 m-25 bg-success">
+          <p>
+            25% on medium large screen, 50% on small screen
+          </p>
+        </div>
+        <div class="clearfix">
+
+        </div>
+
+      </div>
+
+      <!-- FORM -->
+      <!-- Main Content -->
+      <div class="row">
+          <!-- Quote of the day card -->
+          <div class="l-50">
+            <div class="card">
+              <div class="card-head center">
+                <h2>Form and buttons</h2>
+              </div>
+              <div class="card-body">
+                <form id="contact-form">
+                  <fieldset>
+                    <legend>Get in touch with me!</legend>
+                    <div class="form-group">
+                      <label for="nama" class="m-25">Nama : </label>
+                      <input type="text" class="m-75" name="nama" placeholder="Siapa nama Kamu?">
+                      <div class="clearfix"></div>
+                    </div>
+                    <div class="form-group">
+                      <label for="email" class="m-25">Email : </label>
+                      <input type="email" class="m-75" name="email" placeholder="Masukkan alamat email Kamu">
+                      <div class="clearfix"></div>
+                    </div>
+                    <div class="form-group">
+                      <label for="pesan" class="m-25">Pesan : </label>
+                      <textarea class="m-75" type="text" name="pesan" rows="7" placeholder="Ada yang ingin Kamu sampaikan ke Saya?">
+                      </textarea>
+                      <div class="clearfix"></div>
+                    </div>
+                    <div class="form-group">
+                      <label for="program" class="m-25">Pilih Bahasa Pemrograman : </label>
+                      <select class="m-75" name="program">
+                        <option value="javascript">JavaScript</option>
+                        <option value="php">PHP</option>
+                        <option value="python">Python</option>
+                        <option value="ruby">Ruby</option>
+                        <option value="c-cpp">C/C++</option>
+                        <option value="lain-lain">Lain-lain</option>
+                      </select>
+                      <div class="clearfix"></div>
+                    </div>
+                    <div class="form-group">
+                      <div class="m-25"></div>
+                      <div class="m-75 right"><button type="submit" name="submit" class="btn bg-primary c-neutral">Submit</button></div>
+                      <div class="clearfix"></div>
+                    </div>
+                  </fieldset>
+                </form>
+              </div>
+              <div class="card-body">
+                <button type="button" name="button" class="btn bg-warning">Button</button>
+                <button type="button" name="button" class="btn bg-danger">Button</button>
+                <button type="button" name="button" class="btn bg-success">Button</button>
+                <button type="button" name="button" class="btn bg-primary">Button</button>
+                <button type="button" name="button" class="btn bg-neutral">Button</button>
+              </div>
+            </div>
+          </div>
+
+            <!-- Table card -->
+            <div class="l-50">
+              <div class="card">
+                <div class="card-head center">
+                  <h2>Tables</h2>
+                </div>
+                <div class="card-body center">
+                  <table>
+                    <thead class="bg-primary">
+                      <tr class="c-neutral">
+                        <th>Head Lalala</th>
+                        <th>Head Lalala</th>
+                        <th>Head Lalala</th>
+                        <th>Head Lalala</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                      </tr>
+                      <tr>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                      </tr>
+                      <tr>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <br>
+                  <table class="stripped">
+                    <thead class="bg-primary">
+                      <tr class="c-neutral">
+                        <th>Head Lalala</th>
+                        <th>Head Lalala</th>
+                        <th>Head Lalala</th>
+                        <th>Head Lalala</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                      </tr>
+                      <tr>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                      </tr>
+                      <tr>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                        <td>Data</td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                  <img src="https://static.pexels.com/photos/217877/pexels-photo-217877-large.jpeg" alt="Spider Web" class="img-responsive lower"/>
+                  <img src="http://www.digitspeak.com/wp-content/uploads/2016/02/4-1-300x295.png" alt="" class="img-responsive thumbnail img-circle"/>
+                </div>
+              </div>
+            </div>
+            <!-- Quote of the day card -->
+            <div class="clearfix"></div>
+          </div>
+      </div>
+    </div>
+
+
+
+  </body>
+</html>
