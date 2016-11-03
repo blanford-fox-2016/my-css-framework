@@ -10,6 +10,7 @@
     width: (@i * 100% / @n) - ((.5% * ((@n / @i) - 1) ) / (@n / @i)) ;
     background-color: @grey;
     float: left;
+    border-radius: 5px;
   }
   .generate-columns(@n, (@i + 1));
 };
@@ -48,4 +49,9 @@
 .text-body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+}
+.table-row{
+    table, thead, tr, td{
+        border: 2px solid @grey
+    }
 }
