@@ -402,6 +402,9 @@ template {
 [hidden] {
   display: none;
 }
+.top-nav ul li.right {
+  float: right;
+}
 body {
   margin: 0;
   font-family: Sans-serif;
@@ -873,4 +876,26 @@ body {
 }
 .dropdown:hover .dropdown-menu {
   display: block;
+}
+.top-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+.top-nav ul li {
+  float: left;
+}
+.top-nav ul li a {
+  display: block;
+  color: blue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+  .top-nav ul li {
+    float: none;
+  }
 }
