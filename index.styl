@@ -1,0 +1,316 @@
+@require 'fonts'
+@require 'normalize'
+
+*
+  box-sizing: border-box;
+
+body
+  font-family: 'Catamaran', cursive;
+  font-size: 20px
+  background-color: #e1f5fe
+
+header
+  font-family: 'Merriweather Sans', sans-serif;
+  h1
+    font-size: 46px;
+  h2
+    font-size: 35px;
+
+table
+  border-collapse: collapse;
+  width: 100%;
+th
+  height: 50px;
+td
+  color: 1px black;
+
+[class*="xs-"]
+[class*="sm-"]
+[class*="md-"]
+[class*="lg-"]
+  float: left;
+  padding: 10px;
+  width: 100%;
+
+
+.container
+  margin: auto;
+  width: 90%;
+  padding: 10px;
+
+.text-center
+  text-align: center;
+
+.text-left
+  text-align: left;
+
+.text-right
+  text-align: right;
+
+.text-justify
+  text-align: justify;
+
+.row::after
+    content: "";
+    clear: both;
+    display: block;
+
+.fl
+  float: left !important;
+
+.fr
+  float: right !important;
+
+.clearfix
+  clear: both;
+
+
+/*give a lower position content*/
+.lower
+  margin-top: 20px;
+
+
+@media only screen and (min-width: 320px)
+  .sm-1-2,
+  .md-1-2,
+  .lg-1-2
+    width: 100%;
+
+  .sm-1-3,
+  .md-1-3,
+  .lg-1-3
+    width: 100%;
+
+  .sm-2-3,
+  .md-2-3,
+  .lg-2-3
+    width: 100%;
+
+  .sm-1-4,
+  .md-1-4,
+  .lg-1-4
+    width: 100%;
+
+  .sm-3-4,
+  .md-3-4,
+  .lg-3-4
+    width: 100%;
+
+  .xs-1-2
+    width: 50%;
+
+  .xs-1-3
+    width: 33.33333%;
+
+  .xs-2-3
+    width: 66.66666%;
+
+  .xs-1-4
+    width: 25%;
+
+  .xs-3-4
+    width: 75%;
+
+
+
+/*For mobile phone*/
+@media only screen and (min-width: 480px)
+  .md-1-2,
+  .lg-1-2
+    width: 100%;
+
+  .md-1-3,
+  .lg-1-3
+    width: 100%;
+
+  .md-2-3,
+  .lg-2-3
+    width: 100%;
+
+  .md-1-4,
+  .lg-1-4
+    width: 100%;
+
+  .md-3-4,
+  .lg-3-4
+    width: 100%;
+
+  .xs-1-1,
+  .sm-1-1
+    width: 100%;
+
+  .xs-1-2,
+  .sm-1-2
+    width: 50%;
+
+  .xs-1-3,
+  .sm-1-3
+    width: 33.33333%;
+
+  .xs-2-3,
+  .sm-2-3
+    width: 66.66666%;
+
+  .xs-1-4,
+  .sm-1-4
+    width: 25%;
+
+  .xs-3-4,
+  .sm-3-4
+    width: 75%;
+
+
+
+/*For Tablet*/
+@media only screen and (min-width: 767px)
+  .lg-1-2
+    width: 100%;
+
+  .lg-1-3
+    width: 100%;
+
+  .lg-2-3
+    width: 100%;
+
+  .lg-1-4
+    width: 100%;
+
+  .lg-3-4
+    width: 100%;
+
+  .xs-1-1,
+  .sm-1-1,
+  .md-1-1
+    width: 100%;
+
+  .xs-1-2,
+  .sm-1-2,
+  .md-1-2
+    width: 50%;
+
+  .xs-1-3,
+  .sm-1-3,
+  .md-1-3
+    width: 33.33333%;
+
+  .xs-2-3,
+  .sm-2-3,
+  .md-2-3
+    width: 66.66666%;
+
+  .xs-1-4,
+  .sm-1-4,
+  .md-1-4
+    width: 25%;
+
+  .xs-3-4,
+  .sm-3-4,
+  .md-3-4
+    width: 75%;
+
+
+
+/*Desktop*/
+@media only screen and (min-width: 1200px)
+  .xs-1-1,
+  .sm-1-1,
+  .md-1-1,
+  .lg-1-1
+    width: 100%;
+
+  .xs-1-2,
+  .sm-1-2,
+  .md-1-2,
+  .lg-1-2
+    width: 50%;
+
+  .xs-1-3,
+  .sm-1-3,
+  .md-1-3,
+  .lg-1-3
+    width: 33.33333%;
+
+  .xs-2-3,
+  .sm-2-3,
+  .md-2-3,
+  .lg-2-3
+    width: 66.66666%;
+
+  .xs-1-4,
+  .sm-1-4,
+  .md-1-4,
+  .lg-1-4
+    width: 25%;
+
+  .xs-3-4,
+  .sm-3-4,
+  .md-3-4,
+  .lg-3-4
+    width: 75%;
+
+.bg-blue
+  background-color: #2962FF;
+
+.bg-green
+  background-color: #00C853;
+
+.bg-default
+  background-color: #e1f5fe;
+
+.bg-red
+  background-color: #D50000;
+
+.bg-yellow
+  background-color: #FFD600;
+
+.bg-l-blue
+  background-color: #2979FF;
+
+.bg-l-green
+  background-color: #00E676;
+
+.bg-grey
+  background-color: #37474F;
+
+.bg-l-red
+  background-color: #FF1744;
+
+.bg-l-yellow
+  background-color: #FFEA00;
+
+.bg-white
+  background-color: #ffffff;
+
+
+.c-primary
+  color: #2962FF;
+
+.c-success
+  color: #00C853;
+
+.c-normal
+  color: #263238;
+
+.c-danger
+  color: #D50000;
+
+.c-warning
+  color: #FFD600;
+
+.c-primary-l
+  color: #2979FF;
+
+.c-success-l
+  color: #00E676;
+
+.c-normal-l
+  color: #37474F;
+
+.c-danger-l
+  color: #FF1744;
+
+.c-warning-l
+  color: #FFEA00;
+
+.c-neutral
+  color: #ffffff;
