@@ -1,0 +1,30 @@
+{
+  "name": "my-css-framework",
+  "version": "1.0.0",
+  "description": "custom css framework",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blanford-fox-2016/my-css-framework.git"
+  },
+  "keywords": [
+    "css",
+    "sass"
+  ],
+  "author": "ryanandhaka <ryan.andhaka@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blanford-fox-2016/my-css-framework/issues"
+  },
+  "homepage": "https://github.com/blanford-fox-2016/my-css-framework#readme",
+  "dependencies": {
+    "node-sass-middleware": "^0.9.8"
+  },
+  "devDependencies": {
+    "node-sass": "^3.11.0",
+    "nodemon": "^1.11.0"
+  }
+}
