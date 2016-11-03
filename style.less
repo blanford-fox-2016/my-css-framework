@@ -4,6 +4,8 @@
 @color-red: red;
 @color-blue: blue;
 @color-green: green;
+@color-white: white;
+@color-black: black;
 
 body {
   margin: 0;
@@ -388,4 +390,42 @@ body {
   width: 100%;
   max-width: 100%;
   margin-bottom: 20px;
+  border: 1px solid @color-black;
+}
+
+//FORM
+.form-label {
+  width: 200px;
+  height: 20px;
+  padding: 6px 12px;
+}
+
+.form-input {
+  width: 200px;
+  height: 20px;
+  padding: 6px 12px;
+  border:0;
+  background-color: #ecf0f1;
+}
+
+//BUTTON
+.button-red {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  border:0;
+  background-color: @color-red;
+  color: @color-white;
+}
+
+
+//IMAGE
+
+.img {
+  vertical-align: middle;
+  width: 100%;
+  height: auto;
 }
