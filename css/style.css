@@ -1,0 +1,187 @@
+@import 'normalize.css';
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700i|Ubuntu:400,700i");
+/* html
+   ==========================================
+*/
+html {
+  height: 100%;
+}
+body {
+  font-family: Ubuntu, Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #6c7a89;
+  background-color: #fff;
+  margin: 0px;
+  padding: 0px;
+}
+/* Typography
+   ==========================================
+*/
+/* --- Header -----*/
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif /*specific for h5*/;
+  line-height: 1.2857em;
+  margin: calc(2rem - 0.14285em) 0em 1rem;
+  font-weight: bold;
+  padding: 0em;
+}
+h1 {
+  min-height: 1rem;
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.714rem;
+}
+h3 {
+  font-size: 1.28rem;
+}
+h4 {
+  font-size: 1.071rem;
+}
+h5 {
+  font-size: 1rem;
+}
+/* --- Text -----*/
+p {
+  margin: 0em 0em 1em 0em;
+  line-height: 1.4285em;
+}
+/* --- Link -----*/
+a {
+  color: #4183c4;
+  text-decoration: none;
+}
+a:hover {
+  color: #1e70bf;
+  text-decoration: none;
+}
+/* --- color -----*/
+.font-turquoise {
+  color: #1abc9c;
+}
+.back-turquoise {
+  background-color: #1abc9c;
+}
+.font-green {
+  color: #2ecc71;
+}
+.back-green {
+  background-color: #2ecc71;
+}
+.font-blue {
+  color: #3498db;
+}
+.back-blue {
+  background-color: #3498db;
+}
+.font-purple {
+  color: #9b59b6;
+}
+.back-purple {
+  background-color: #9b59b6;
+}
+.font-red {
+  color: #c0392b;
+}
+.back-red {
+  background-color: #c0392b;
+}
+.font-yellow {
+  color: #f1c40f;
+}
+.back-yellow {
+  background-color: #f1c40f;
+}
+.font-orange {
+  color: #d35400;
+}
+.back-orange {
+  background-color: #d35400;
+}
+/* Grid System
+   =========================
+*/
+.ju-container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  position: relative;
+  min-height: 1px;
+}
+.ju-row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.col-md-1 {
+  float: left;
+  width: 8.333333%;
+}
+.col-md-2 {
+  float: left;
+  width: 16.666667%;
+}
+.col-md-3 {
+  float: left;
+  width: 25%;
+}
+.col-md-4 {
+  float: left;
+  width: 33.333333%;
+}
+.col-md-5 {
+  float: left;
+  width: 41.666667%;
+}
+.col-md-6 {
+  float: left;
+  width: 50%;
+}
+.col-md-7 {
+  float: left;
+  width: 58.333333%;
+}
+.col-md-8 {
+  float: left;
+  width: 66.666667%;
+}
+.col-md-9 {
+  float: left;
+  width: 75%;
+}
+.col-md-10 {
+  float: left;
+  width: 83.333333%;
+}
+.col-md-11 {
+  float: left;
+  width: 91.666667%;
+}
+.col-md-12 {
+  float: left;
+  width: 100%;
+}
+/* Tables
+   ==========================================================================
+*/
+/* Form
+   ==========================================================================
+*/
+/* Buttons
+   ==========================================================================
+*/
+/* Images
+   ==========================================================================
+*/
+/* Helper Classes
+   ==========================================================================
+*/
+/* Responsive Utilities
+   ==========================================================================
+*/
