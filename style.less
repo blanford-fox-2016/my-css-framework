@@ -421,6 +421,30 @@ body {
   color: @color-white;
 }
 
+.button-green {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  border:0;
+  background-color: @color-green;
+  color: @color-white;
+}
+
+.button-blue {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  border:0;
+  background-color: @color-blue;
+  color: @color-white;
+}
+
 
 //IMAGE
 
@@ -428,4 +452,22 @@ body {
   vertical-align: middle;
   width: 100%;
   height: auto;
+}
+
+//DROP DOWN
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-menu {
+  position: absolute;
+  display: none;
+  min-width: 160px;
+  background-color: #fff;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
 }

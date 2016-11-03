@@ -834,8 +834,43 @@ body {
   background-color: red;
   color: white;
 }
+.button-green {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  border: 0;
+  background-color: green;
+  color: white;
+}
+.button-blue {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  border: 0;
+  background-color: blue;
+  color: white;
+}
 .img {
   vertical-align: middle;
   width: 100%;
   height: auto;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-menu {
+  position: absolute;
+  display: none;
+  min-width: 160px;
+  background-color: #fff;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
 }
