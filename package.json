@@ -19,5 +19,8 @@
   "homepage": "https://github.com/blanford-fox-2016/my-css-framework#readme",
   "dependencies": {
     "node-sass": "^3.11.0"
+  },
+  "devDependencies": {
+    "less": "^2.7.1"
   }
 }
