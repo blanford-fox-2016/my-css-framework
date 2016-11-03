@@ -1,12 +1,65 @@
 @import "../normalize.less";
 
-@color = 'red'
+
+
+  .header{
+  width:1400px;
+  height:150px;
+  }
+// center
+.text-center{
+  text-align: center;
+}
+
+.box-center{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+// heading
+h{
+  &1{
+    font-size: 36px;
+    font-family: Arial,Helvetica,sans-serif;
+  }
+  &2{
+    font-size: 30px;
+    font-family: Arial,Helvetica,sans-serif;
+  }
+  &3{
+    font-size: 24px;
+    font-family: Arial,Helvetica,sans-serif;
+  }
+  &4{
+    font-size: 18px;
+    font-family: Arial,Helvetica,sans-serif;
+  }
+  &5{
+    font-size: 14px;
+    font-family: Arial,Helvetica,sans-serif;
+  }
+  &6{
+    font-size: 12px;
+    font-family: Arial,Helvetica,sans-serif;
+  }
+}
+
 
 .container{
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.jumbotron{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color:inherit;
+  background-color: #eee;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 //grid system
 .grid-container{
@@ -182,5 +235,23 @@
 
   &down:hover .dropbtn {
       background-color: #3e8e41;
+  }
+}
+.button{
+  &-danger{
+    border-radius: 2px;
+    background-color: red;
+  }
+  &-calm{
+    border-radius: 4px;
+    background-color: green;
+  }
+  &-cold{
+    border-radius: 8px;
+    background-color: blue;
+  }
+  &-happy{
+    border-radius: 12px;
+    background-color: yellow;
   }
 }

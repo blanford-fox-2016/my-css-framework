@@ -180,13 +180,55 @@ td,
 th {
   padding: 0;
 }
-@color = 'red'
-
+.header {
+  width: 1400px;
+  height: 150px;
+}
+.text-center {
+  text-align: center;
+}
+.box-center {
+  margin-left: 0;
+  margin-right: 0;
+}
+h1 {
+  font-size: 36px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h3 {
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h4 {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h5 {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h6 {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 .container {
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+}
+.jumbotron {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #eee;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 .grid-container {
   width: 100%;
@@ -337,4 +379,20 @@ th {
 }
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
+}
+.button-danger {
+  border-radius: 2px;
+  background-color: red;
+}
+.button-calm {
+  border-radius: 4px;
+  background-color: green;
+}
+.button-cold {
+  border-radius: 8px;
+  background-color: blue;
+}
+.button-happy {
+  border-radius: 12px;
+  background-color: yellow;
 }
