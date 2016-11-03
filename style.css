@@ -405,6 +405,9 @@ template {
 .top-nav ul li.right {
   float: right;
 }
+.text-center {
+  text-align: center;
+}
 body {
   margin: 0;
   font-family: Sans-serif;
@@ -898,4 +901,11 @@ body {
   .top-nav ul li {
     float: none;
   }
+}
+.jumbotron-blue {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: white;
+  background-color: #3498db;
 }
